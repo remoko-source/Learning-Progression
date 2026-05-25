@@ -1,4 +1,3 @@
-
 #Mini Project day 2
 tugas = ["Matemika","Sains","PJOK"]
 while True:
