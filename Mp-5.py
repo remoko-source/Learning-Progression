@@ -34,7 +34,7 @@ def tambah() :
 def hapus():
  mana= input("Tuliskan nama siswa yang mau dihapus : ")
  if mana in database:
-  database.remove[mana]
+  del database[mana]
  else :
   print("Tidak Valid")
  input()
@@ -96,7 +96,7 @@ while kal:
  elif k == "4":
   os.system("cls")
   hapus()
- elif k == "5" :
+ elif k == "5":
   os.system("cls")
   jumlah()
  elif k == "6":
