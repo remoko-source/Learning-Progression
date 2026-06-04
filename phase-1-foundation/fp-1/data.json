@@ -1,0 +1,67 @@
+{
+  "akun": [
+    {
+      "nama": "Klaa",
+      "pass": "10000",
+      "saldo": 21000,
+      "portofolio": {
+        "BTC": 0.7,
+        "ETH": 2
+      }
+    },
+    {
+      "nama": "Remoko",
+      "pass": "10000",
+      "saldo": 2322000,
+      "portofolio": {
+        "BTC": 0,
+        "ETH": 45.0
+      }
+    },
+    {
+      "nama": "Dunham",
+      "pass": "10000",
+      "saldo": 22500.0,
+      "portofolio": {
+        "ETH": 0.0
+      }
+    },
+    {
+      "nama": "Eftovi",
+      "pass": "10000",
+      "saldo": 10000,
+      "portofolio": {
+        "SOL": 4
+      }
+    },
+    {
+      "nama": "Mandor",
+      "pass": "10000",
+      "saldo": 10100,
+      "portofolio": {}
+    },
+    {
+      "nama": "Amon",
+      "pass": "10000",
+      "saldo": 0,
+      "portofolio": {}
+    },
+  ],
+  "crypto": {
+    "BTC": {
+      "nama": "Bitcoin",
+      "harga": 70000,
+      "harga_sekarang": 79000
+    },
+    "ETH": {
+      "nama": "Ethereum",
+      "harga": 2000,
+      "harga_sekarang": 2000
+    },
+    "SOL": {
+      "nama": "Solana",
+      "harga": 12,
+      "harga_sekarang": 12
+    }
+  }
+}
