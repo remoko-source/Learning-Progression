@@ -73,6 +73,7 @@ python main.py
 ```
 
 Tidak ada dependency eksternal. Cukup Python 3 terinstall.
+Selamat Mencoba!
 
 ---
 
