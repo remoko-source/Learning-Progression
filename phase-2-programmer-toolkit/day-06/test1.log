@@ -1,0 +1,4 @@
+2026-06-12 17:25:51,646 - INFO - BTC Naik 3000 USD
+2026-06-12 17:25:51,647 - WARNING - kondisi API sedikit terganggu
+2026-06-12 17:25:51,647 - CRITICAL - sambungan API terputus
+2026-06-12 17:25:51,648 - ERROR - API tidak ditemukan

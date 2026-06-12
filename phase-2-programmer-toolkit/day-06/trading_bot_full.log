@@ -1,0 +1,27 @@
+2026-06-12 00:00:56 - INFO - === Bot Trading Dimulai ===
+2026-06-12 00:00:56 - DEBUG - --- Siklus #1 dimulai ---
+2026-06-12 00:00:56 - INFO - Harga BTC: $64879.57
+2026-06-12 00:00:56 - DEBUG - RSI saat ini: 37.96
+2026-06-12 00:00:56 - INFO - Sinyal: HOLD (RSI: 37.96)
+2026-06-12 00:00:56 - DEBUG - Tidak ada aksi, HOLD
+2026-06-12 00:00:57 - DEBUG - --- Siklus #2 dimulai ---
+2026-06-12 00:00:57 - DEBUG - Selisih waktu dari siklus sebelumnya: 0:00:01.004947
+2026-06-12 00:00:57 - INFO - Harga BTC: $64686.74
+2026-06-12 00:00:57 - DEBUG - RSI saat ini: 34.09
+2026-06-12 00:00:57 - INFO - Sinyal: HOLD (RSI: 34.09)
+2026-06-12 00:00:57 - DEBUG - Tidak ada aksi, HOLD
+2026-06-12 00:00:58 - DEBUG - --- Siklus #3 dimulai ---
+2026-06-12 00:00:58 - DEBUG - Selisih waktu dari siklus sebelumnya: 0:00:01.001924
+2026-06-12 00:00:58 - INFO - Harga BTC: $64572.98
+2026-06-12 00:00:58 - DEBUG - RSI saat ini: 51.52
+2026-06-12 00:00:58 - INFO - Sinyal: HOLD (RSI: 51.52)
+2026-06-12 00:00:58 - DEBUG - Tidak ada aksi, HOLD
+2026-06-12 00:00:59 - DEBUG - --- Siklus #4 dimulai ---
+2026-06-12 00:00:59 - DEBUG - Selisih waktu dari siklus sebelumnya: 0:00:01.001875
+2026-06-12 00:00:59 - ERROR - Gagal ambil harga: Timeout saat menghubungi exchange
+2026-06-12 00:00:59 - INFO - Menunggu 2 detik sebelum retry...
+2026-06-12 00:01:01 - DEBUG - --- Siklus #5 dimulai ---
+2026-06-12 00:01:01 - DEBUG - Selisih waktu dari siklus sebelumnya: 0:00:02.000004
+2026-06-12 00:01:01 - ERROR - Gagal ambil harga: Timeout saat menghubungi exchange
+2026-06-12 00:01:01 - INFO - Menunggu 2 detik sebelum retry...
+2026-06-12 00:01:03 - INFO - === Bot Trading Selesai ===
