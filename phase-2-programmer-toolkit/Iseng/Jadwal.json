@@ -1,0 +1,26 @@
+{
+  "Senin": {
+    "latihan": "Arm",
+    "status": "belum"
+  },
+  "Selasa": {
+    "latihan": "Chest",
+    "status": "belum"
+  },
+  "Rabu": {
+    "latihan": "Leg",
+    "status": "belum"
+  },
+  "Kamis": {
+    "latihan": "Chest",
+    "status": "belum"
+  },
+  "Jum'at": {
+    "latihan": "Chest",
+    "status": "Selesai"
+  },
+  "Sabtu": {
+    "latihan": "Chest",
+    "status": "Selesai"
+  }
+}

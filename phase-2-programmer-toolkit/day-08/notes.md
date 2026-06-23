@@ -188,4 +188,3 @@ Daripada hardcode atau pakai index `[0][1]`, build bertahap — lebih fleksibel 
 1. `PermissionError` → path terbuat sebagai folder, bukan file
 2. `logger.info("msg:", var)` → harus f-string
 3. `is_file` tanpa `()` → tidak dipanggil, selalu truthy
-4.
