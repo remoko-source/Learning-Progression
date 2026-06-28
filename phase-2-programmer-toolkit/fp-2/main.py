@@ -2,9 +2,9 @@
 from logger import setup_logging ; from validator import validate_trade, TradeValidationError
 from storage import load_trades, update_trade, add_trade ; import time
 from scanner import check ; import sys ; import os
+check()
 logger = setup_logging()
 logger.info("PROGRAM DIJALANKAN")
-check()
 def menu():
 	print("=================================================")
 	print("    Selamat datang di aplikasi TradeDesk CLI!")
@@ -39,7 +39,7 @@ def add():
 	
 def view():
 	trades = load_trades()
-	for value in list:
+	for value in trades:
 		print("==============================")
 		print("  ID :", value["id"])
 		print("  Nama coin: ", value["coin"])
@@ -52,7 +52,7 @@ def view():
 		
 def update():
 	trades = load_trades()
-	for value in list:
+	for value in trades:
 		if value["status"] == "OPEN":
 			print("==============================")
 			print("  ID :", value["id"])
@@ -66,10 +66,10 @@ def update():
 	while True:
 		try:
 			id = int(input("Masukkan id trade yang ingin anda ubah: "))
-			if id > len(list):
+			if id > len(trades):
 				print("ID tidak Valid")
 				continue
-			elif list[id-1]["status"] != "OPEN":
+			elif trades[id-1]["status"] != "OPEN":
 				print("Trade sudah selesai.")
 				return
 			sell = float(input("Masukkan harga jual: "))

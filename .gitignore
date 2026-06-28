@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+
+# Environment Variables
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Log files
+logs/
+*.log
+
+# Data
+data/
+
+# OS files
+Thumbs.db
+desktop.ini
