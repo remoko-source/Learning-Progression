@@ -1,5 +1,5 @@
 #FEARS AND GREEDS
-import requests ; from datetime import datetime ; import logging
+import requests ; from datetime import datetime ; import logging ; import winsound
 logger = logging.getLogger("HAHA") ; logger.setLevel(logging.DEBUG)
 file = logging.FileHandler("Mp.log") ; file.setLevel(logging.INFO)
 
@@ -38,6 +38,7 @@ try:
 	print("RATA RATA: ", int(rata_rata))
 	print("PASAR 7 Hari Terakhir Dominan ", kesimpulan)
 	print("==================================================")
+	
 
 except requests.exceptions.InvalidURL:
 	print("URL tidak valid")
