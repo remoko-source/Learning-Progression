@@ -15,6 +15,7 @@ try:
 	response = requests.get(url)
 	response.raise_for_status()
 	response_json = response.json()
+	print(response_json)
 	print()
 	print("DATA BERHASIL DIAMBIL")
 	logger.info("SISTEM SELESAI")
