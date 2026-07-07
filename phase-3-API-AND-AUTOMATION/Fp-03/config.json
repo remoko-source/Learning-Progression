@@ -1,0 +1,12 @@
+{
+  "coins": ["bitcoin", "ethereum", "solana", "the-black-bull", "dogecoin"],
+  "base_url": "https://api.coingecko.com/api/v3/simple/price",
+  "currencies": ["usd","idr"],
+  "max_retries": 3,
+  "interval": 5,
+  "retry_delay": 2,
+  "mover_threshold": 3.0,
+  "last_alert" : 0,
+  "durasi" : 9999999,
+  "cooldown" : 60
+}

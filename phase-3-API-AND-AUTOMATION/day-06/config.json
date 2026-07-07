@@ -1,0 +1,7 @@
+{
+  "coins": ["bitcoin", "ethereum", "solana", "fih","SJHJDJDHJD"],
+  "currencies": ["usd","idr"],
+  "alert_threshold_percent": 5,
+  "check_interval_seconds": 5,
+  "max_retries": 3
+}
