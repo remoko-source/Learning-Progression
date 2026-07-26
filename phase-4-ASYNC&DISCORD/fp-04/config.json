@@ -1,0 +1,8 @@
+{
+    "coins" : ["bitcoin","ethereum","solana"],
+    "currencies" : ["usd", "idr"],
+    "threshold_percent" : 0.3,
+    "max_retry_attempts" : 3,
+    "interval_seconds" : 15,
+    "cooldown_minutes" : 15
+}
